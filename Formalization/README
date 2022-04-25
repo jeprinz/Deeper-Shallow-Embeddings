@@ -1,0 +1,13 @@
+This is the code associated with "Deeper Shallow Embeddings."
+
+Table of contents:
+--------------------------------------------------------------------
+Figure 1 code - STLC-deep.agda
+Figure 2 code - Dep-Thy-shallow.agda
+Figure 3 code - Deeper-Shallow-Embedding.agda
+Examples at end of Section 2 - small-examples.agda
+Section 3.1 code - Named-Variables.agda
+Section 3.2 code - compilation.agda
+Section 3.3 code - Affine-Embedding.agda
+Section 4 and 5 code - beta-reduction-with-funext.agda
+Small examples from Section 7 - end of beta-reduction-with-funext.agda
