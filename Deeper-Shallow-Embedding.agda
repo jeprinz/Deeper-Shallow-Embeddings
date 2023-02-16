@@ -14,7 +14,7 @@ data Context : S.Ctx → Set j where
   _,_ : ∀{sΓ} → Context sΓ → (T : S.Type sΓ) → Context (S.cons sΓ T)
 
 data Var : {sΓ : S.Ctx} → (Γ : Context sΓ) → (T : S.Type sΓ)
-  → (S.Term sΓ T) → Set j where
+  → (S.Var sΓ T) → Set j where
   same : ∀{sΓ T} → {Γ : Context sΓ} → Var (Γ , T) (S.weakenT T) S.same
   next : ∀{sΓ Γ T A s} → Var {sΓ} Γ A s → Var (Γ , T) (S.weakenT A) (S.next s)
 
